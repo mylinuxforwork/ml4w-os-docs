@@ -8,7 +8,7 @@ REMOTE_DIR="/migrated_webspace/www/ml4w/os/"  # Target subfolder on server
 # ---------------------
 
 echo ":: Building VitePress site..."
-bun run docs:build
+bun run docs:build --base=/os/
 
 if [ $? -eq 0 ]; then
     echo ":: Build successful. Starting upload to $HOST..."
