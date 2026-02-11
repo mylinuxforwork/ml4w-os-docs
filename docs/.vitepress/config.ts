@@ -175,7 +175,7 @@ export default {
     footer: {
       message: "Released under the GPL License",
       copyright: `<a href="https://ml4w.com" target="_blank">
-        <img src="/dotfiles/ml4w.png" alt="ML4W" />
+        <img src="ml4w.png" alt="ML4W" />
         Copyright © 2026 Stephan Raabe
       </a>`,
     },
