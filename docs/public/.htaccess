@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Ensure the base path matches your subfolder
+  RewriteBase /os/
+
+  # If the request is for an actual file or directory, serve it
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # If the request is for a path without .html, try adding .html
+  # e.g., /overview -> /overview.html
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # Handle VitePress 404s (Optional but recommended)
+  # ErrorDocument 404 /os/404.html
+</IfModule>
