@@ -25,7 +25,7 @@ Please copy the files from your first backup that you have made with the Dotfile
 You can find the backup folder here:
 
 ```sh
-cd ~/.var/app/com.ml4w.dotfilesinstaller/data/backup
+cd ~/.mydotfiles/backups/profile-backups
 cd com.ml4w.dotfiles # for rolling release
 cd com.ml4w.dotfiles.stable # for stable release
 ```
@@ -49,7 +49,7 @@ rm -rf com.ml4w.dotfiles.stable # for stable release
 ```
 ## Uninstall dependencies (optional)
 
-You can uninstall <a href="/dotfiles/getting-started/dependencies">dependencies</a> that you don't need anymore. 
+You can uninstall selected <a href="https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies">dependencies</a> that you don't need anymore. 
 
 > [!WARNING]
 > Please make sure that you don't uninstall packages that are required by your system.

@@ -39,34 +39,26 @@ Please select your hard drive (all data will be erased!) and follow the instruct
 
 Please wait until the installation is done and reboot your system.
 
-## Installation with the Dotfiles Installer
+## Installation on your Distribution
 
 ::: warning BEFORE YOU START
 Please back up your existing `~/.config` folder with your dotfiles before starting the scripts for initial installation.
 :::
 
-You can install the ML4W OS Hyprland on any distribution by using the Dotfiles Installer from Flathub. Click on the badge below to install the app:
+> [!IMPORTANT]
+> The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer">ML4W Dotfiles Installer</a>. The Dotfiles Installer Flatpak is still available but not supported anymore. You can uninstall the Dotfiles Installer with `flatpak uninstall com.ml4w.dotfilesinstaller`.
 
-<a href="https://mylinuxforwork.github.io/dotfiles-installer/" target="_blank"><img src="https://mylinuxforwork.github.io/dotfiles-installer/dotfiles-installer-badge.png" style="border:0;margin-bottom:10px"></a>
+You can install the ML4W OS Hyprland on your distribution. Copy the following url into a terminal to start the installation:
 
-::: warning BEFORE YOU START
-The Dotfiles Installer will create a backup from configurations of your `.config` folder that will be overwritten from the installation procedure and previous ML4W OS installations.
+::: code-group
 
-If possible, please create a snapshot of your current system if snapper or Timeshift is installed and available.
+```sh [Stable Release]
+bash <(curl -s https://ml4w.com/os/stable)
+```
+```sh [Rolling Release]
+bash <(curl -s https://ml4w.com/os/rolling)
+```
 :::
-
-Copy the following url into the Dotfiles Installer.
-
-#### Stable Release
-
-```sh
-https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/hyprland-dotfiles-stable.dotinst
-```
-#### Rolling Release
-
-```sh
-https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/hyprland-dotfiles.dotinst
-```
 
 Setup scripts to install the required dependencies are included for Arch Linux (recommended), Fedora and openSuse Tumbleweed.
 
@@ -76,7 +68,7 @@ Setup scripts to install the required dependencies are included for Arch Linux (
 The installation of dependencies can take between 5 to 15 minutes depending on your internet connection and system performance.
 
 ::: info UNSUPPORTED DISTROS
-For other distros, please install <a href="/dotfiles/getting-started/dependencies">the dependencies</a> first. Then install the Dotfiles by skipping the setup script.
+For other distros, please install <a href="https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies">the dependencies</a> first. Then install the Dotfiles by skipping the setup script.
 :::
 
 The Dotfiles will be installed into the folder `~/.mydotfiles` with symbolic links into `~/.config`.

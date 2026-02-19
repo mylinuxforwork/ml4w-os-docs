@@ -5,12 +5,18 @@
 
 ## Update with the Dotfiles Installer
 
-If you have installed the Dotfiles with the Dotfiles Installer, just open the Dotfiles Installer and click on the Refresh Icon to start the update.
+The ML4W Welcome App will show a banner as soon as an update for ML4W OS is available.
 
-![image](/update-dotfiles.jpg)
+Click on update or select Update ML4W OS from the menu.
 
-The Dotfiles Installer will offer to create a backup, to restore your existing settings and to protect your own customization (if needed).
+You can start the update or installation at any time with:
 
-::: warning RESTORE AND PROTECT
-Every version of the ML4W OS is shipped with new features and updated configuration files. To make sure that the update generates no sideeffects, please reduce the amount of restored files to a minimum. 
+::: code-group
+
+```sh [Stable Release]
+bash <(curl -s https://ml4w.com/os/stable)
+```
+```sh [Rolling Release]
+bash <(curl -s https://ml4w.com/os/rolling)
+```
 :::

@@ -53,23 +53,21 @@ Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.
 
 ### Installation on your Linux Distribution
 
-You can install the ML4W OS Hyprland with the Dotfiles Installer available on Flathub.<br>Click on the badge below to install the app.
-
-<a href="https://mylinuxforwork.github.io/dotfiles-installer/" target="_blank"><img src="https://mylinuxforwork.github.io/dotfiles-installer/dotfiles-installer-badge.png" style="border:0;margin-bottom:10px"></a>
-
-Copy the following url into the Dotfiles Installer and start the installation.
+Copy the following url into a terminal to start the installation:
 
 ::: code-group
 
 ```sh [Stable Release]
-https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/hyprland-dotfiles-stable.dotinst
+bash <(curl -s https://ml4w.com/os/stable)
 ```
 ```sh [Rolling Release]
-https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/hyprland-dotfiles.dotinst
+bash <(curl -s https://ml4w.com/os/rolling)
 ```
 :::
 
-Setup scripts to install the required dependencies are included for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> Fedora.<br>
+The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer">ML4W Dotfiles Installer</a>.
+
+The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> Fedora.<br>
 For other distros, please install <a href="/dotfiles/getting-started/dependencies">the dependencies</a> first.
 
 </div>

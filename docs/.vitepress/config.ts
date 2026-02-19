@@ -28,7 +28,7 @@ export default {
         activeMatch: "/showcases/",
       },
      {
-        text: "2.10.1",
+        text: "2.11.0",
         items: [
           {
             text: 'Changelog',
@@ -43,7 +43,7 @@ export default {
             text: 'ML4W Dotfiles Installer',
 //          we can define like this, see below in sidebar section for more info  
 //          link: '/dots-installer/overview'
-            link: 'https://mylinuxforwork.github.io/dotfiles-installer/'
+            link: 'https://ml4w.com/dotfiles-installer/'
           },
           {
             text: 'ML4W Hyprland Starter',
@@ -94,7 +94,7 @@ export default {
             { text: "Launch Hyprland", link: "/usage/launch" },
             { text: "Update", link: "/getting-started/update" },
             { text: "Uninstall", link: "/getting-started/uninstall" },
-            { text: "Dependencies", link: "/getting-started/dependencies" },
+            { text: "Dependencies", link: "https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies" },
           ],
         },
         {
