@@ -68,7 +68,7 @@ bash <(curl -s https://ml4w.com/os/rolling)
 The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer">ML4W Dotfiles Installer</a>.
 
 The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> Fedora.<br>
-For other distros, please install <a href="/dotfiles/getting-started/dependencies">the dependencies</a> first.
+For other distros, please install <a href="https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies" target="_blank">the dependencies</a> first.
 
 </div>
 
