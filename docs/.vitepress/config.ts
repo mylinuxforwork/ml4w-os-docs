@@ -54,10 +54,6 @@ export default {
             link: 'https://github.com/mylinuxforwork/wallpaper'
           },
           {
-           text: 'Contributing to wiki →',
-           link: '/development/wiki'
-          },
-          {
            text: 'Troubleshooting →',
            link: '/help/troubleshooting'
           },
