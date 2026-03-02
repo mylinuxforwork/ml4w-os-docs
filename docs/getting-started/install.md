@@ -58,6 +58,11 @@ bash <(curl -s https://ml4w.com/os/stable)
 ```sh [Rolling Release]
 bash <(curl -s https://ml4w.com/os/rolling)
 ```
+```sh [Fish Shell]
+# Please use one of the following commands for fish shell
+bash (curl -s https://github.com/os/stable | psub)
+bash (curl -s https://github.com/os/rolling | psub)
+```
 :::
 
 Setup scripts to install the required dependencies are included for Arch Linux (recommended), Fedora and openSuse Tumbleweed.
