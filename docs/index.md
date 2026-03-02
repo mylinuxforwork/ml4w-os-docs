@@ -66,6 +66,10 @@ bash <(curl -s https://ml4w.com/os/stable)
 ```sh [Rolling Release]
 bash <(curl -s https://ml4w.com/os/rolling)
 ```
+```sh [Fish Shell]
+bash (curl -s https://github.com/os/stable | psub) # Stable
+bash (curl -s https://github.com/os/rolling | psub) # Rolling
+```
 :::
 
 The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer" target="_blank">ML4W Dotfiles Installer</a>.

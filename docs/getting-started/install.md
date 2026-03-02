@@ -59,9 +59,8 @@ bash <(curl -s https://ml4w.com/os/stable)
 bash <(curl -s https://ml4w.com/os/rolling)
 ```
 ```sh [Fish Shell]
-# Please use one of the following commands for fish shell
-bash (curl -s https://github.com/os/stable | psub)
-bash (curl -s https://github.com/os/rolling | psub)
+bash (curl -s https://github.com/os/stable | psub) # Stable
+bash (curl -s https://github.com/os/rolling | psub) # Rolling
 ```
 :::
 
