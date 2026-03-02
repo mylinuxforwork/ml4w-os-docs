@@ -1,44 +1,5 @@
 # Installation
 
-## Test and Install (BETA) with the ML4W OS Live ISO
-
-You can test the ML4W OS without risk with the ML4W OS Live ISO.
-
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.11.0-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
-
-> [!IMPORTANT]
-> The ML4W OS will be started automatically with the user 'liveuser' and password 'liveuser'.
-
-### Real Hardware
-
-If you want to try ML4W OS on a real hardware, please prepare a bootable USB Stick (e.g. with Balena Etcher or Rufus on Windows).
-
-Insert the USB Stick and select it from your BIOS Boot Manager. The system will boot up directly into ML4W OS.
-
-### Virtual Machine (KVM/Qemu)
-
-Create a Virtual Machine in Virt Manager, select the stick, set the possible RAM and CPUs and select min. 10 GB harddisc.
-
-Select UEFI and enable 3D acceleration.
-
-Click on Begin Installation to boot up the System into ML4W OS.
-
-> [!IMPORTANT]
-> You can change the screen resolution from the Welcome App: Settings/Monitors. Then Logout from the Power Button in the status bar and login again with liveuser (no password).
-
-### Install the Live ISO (BETA)
-
-You can install the Live ISO to your hard drive by opening a terminal and enter:
-
-`sudo install-ml4w-os`
-
-> [!IMPORTANT]
-> Enter password 'liveuser'.
-
-Please select your hard drive (all data will be erased!) and follow the instructions. The system will format your hard drive with btrfs and will create standard subvolumes compatible for snapshots with snapper or timeshift.
-
-Please wait until the installation is done and reboot your system.
-
 ## Installation on your Distribution
 
 ::: warning BEFORE YOU START
@@ -80,6 +41,45 @@ I recommend to install a base Hyprland system before installing the ML4W Hyprlan
 
 You can find the Hyprland Installation instructions on [hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 :::
+
+## Test and Install (BETA) with the ML4W OS Live ISO
+
+You can test the ML4W OS without risk with the ML4W OS Live ISO.
+
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.11.0-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
+
+> [!IMPORTANT]
+> The ML4W OS will be started automatically with the user 'liveuser' and password 'liveuser'.
+
+### Real Hardware
+
+If you want to try ML4W OS on a real hardware, please prepare a bootable USB Stick (e.g. with Balena Etcher or Rufus on Windows).
+
+Insert the USB Stick and select it from your BIOS Boot Manager. The system will boot up directly into ML4W OS.
+
+### Virtual Machine (KVM/Qemu)
+
+Create a Virtual Machine in Virt Manager, select the stick, set the possible RAM and CPUs and select min. 10 GB harddisc.
+
+Select UEFI and enable 3D acceleration.
+
+Click on Begin Installation to boot up the System into ML4W OS.
+
+> [!IMPORTANT]
+> You can change the screen resolution from the Welcome App: Settings/Monitors. Then Logout from the Power Button in the status bar and login again with liveuser (no password).
+
+### Install the Live ISO (BETA)
+
+You can install the Live ISO to your hard drive by opening a terminal and enter:
+
+`sudo install-ml4w-os`
+
+> [!IMPORTANT]
+> Enter password 'liveuser'.
+
+Please select your hard drive (all data will be erased!) and follow the instructions. The system will format your hard drive with btrfs and will create standard subvolumes compatible for snapshots with snapper or timeshift.
+
+Please wait until the installation is done and reboot your system.
 
 ## Installation in a Virtual Machine (KVM)
 
