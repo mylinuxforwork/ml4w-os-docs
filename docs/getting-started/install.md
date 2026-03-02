@@ -67,70 +67,19 @@ bash (curl -s https://github.com/os/rolling | psub) # Rolling
 Setup scripts to install the required dependencies are included for Arch Linux (recommended), Fedora and openSuse Tumbleweed.
 
 > [!IMPORTANT]
-> From Hyprland Wiki: We officially run and test Hyprland on Arch and NixOS, and we guarantee Hyprland will work there. For any other distro (not based on Arch/Nix) you might have varying amounts of success. However, since Hyprland is extremely bleeding-edge, point release distros like Pop!_OS, Fedora, Ubuntu, etc. will have major issues running Hyprland. Rolling release distros like openSUSE, Solus ,etc. will likely be fine.
+Cachy OS is using the fish shell. Please use the fish shell installation commands. You can ignore the fish shell error messages at the end of the installation procedure.
+
+From Hyprland Wiki: We officially run and test Hyprland on Arch and NixOS, and we guarantee Hyprland will work there. For any other distro (not based on Arch/Nix) you might have varying amounts of success. However, since Hyprland is extremely bleeding-edge, point release distros like Pop!_OS, Fedora, Ubuntu, etc. will have major issues running Hyprland. Rolling release distros like openSUSE, Solus ,etc. will likely be fine.
 
 The installation of dependencies can take between 5 to 15 minutes depending on your internet connection and system performance.
-
-::: info UNSUPPORTED DISTROS
-For other distros, please install <a href="https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies">the dependencies</a> first. Then install the Dotfiles by skipping the setup script.
-:::
 
 The Dotfiles will be installed into the folder `~/.mydotfiles` with symbolic links into `~/.config`.
 
 ::: info RECOMMENDATION
 I recommend to install a base Hyprland system before installing the ML4W Hyprland Dotfiles. Then you have a stable starting point and can test Hyprland on your system before. Hyprland is complex, under ongoing development and requires additional components. 
 
-On Arch Linux you can also install the Hyprland Desktop Profile first.
-
 You can find the Hyprland Installation instructions on [hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 :::
-
-### For Minimal Arch Linux installations
-
-Install the following dependencies on a minimal Arch Linux installation
-
-```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S hyprland vim kitty firefox flatpak
-
-```
-Reboot and then start Hyprland with 
-
-```sh [<i class="devicon-archlinux-plain"></i> Arch]
-Hyprland
-
-```
-Open Firefox, open the Dotfiles Installer Homepage and follow the installation instructions.
-
-## Installation with GNU stow
-
-The installation without the Dotfiles Installer is possible but not recommended (especially not for beginners). 
-
-> [!NOTE]
-> Please create a backup from your current configuration. This guide is under developement
-
-The manual installation requires stow. Please install it on your system e.g., on Arch with
-
-```sh 
-sudo pacman -S stow
-```
-
-Please follow the following steps:
-
-```sh 
-mkdir -p ~/Projects # Create a projects folder 
-cd ~/Projects #cd into the Projects directory
-git clone --depth 1 https://github.com/mylinuxforwork/dotfiles # Rolling Release
-cd ~/Projects/dotfiles/setup # cd into the setup folder
-./setup.sh # Run the setup script to install the dependencies
-```
-Create symlinks into your home folder
-
-```sh 
-cd ~/Projects/dotfiles
-stow dotfiles
-```
-
-Restart your system.
 
 ## Installation in a Virtual Machine (KVM)
 
