@@ -67,8 +67,9 @@ bash <(curl -s https://ml4w.com/os/stable)
 bash <(curl -s https://ml4w.com/os/rolling)
 ```
 ```sh [Fish Shell]
-bash (curl -s https://github.com/os/stable | psub) # Stable
-bash (curl -s https://github.com/os/rolling | psub) # Rolling
+# Switch to bash first with
+bash
+# Then run one of the installation commands
 ```
 :::
 
