@@ -2,7 +2,7 @@
 
 The ML4W OS - Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install from a Live ISO or with the Dotfiles Installer app with setup scripts for Arch Linux, Fedora and openSuse.
 
-![image](/dotfiles2110.jpg)
+![image](/screen-2111.jpg)
 
 > [!NOTE]
 > This Wiki is covering the latest features of the ML4W OS. Please make sure that the latest version of the ML4W OS is installed on your system. Follow the installation and update instructions.

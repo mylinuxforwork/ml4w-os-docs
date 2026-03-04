@@ -28,7 +28,7 @@ export default {
         activeMatch: "/showcases/",
       },
      {
-        text: "2.11.0",
+        text: "2.11.1",
         items: [
           {
             text: 'Changelog',
