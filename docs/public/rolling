@@ -42,7 +42,7 @@ TEMP_DIR=$(mktemp -d -t ml4w-installer-XXXXXX)
 info "Cloning ML4W Dotfiles Installer $TAG into $TEMP_DIR..."
 
 # 3. Clone and Install the App
-git clone --depth=1 -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
+git clone --depth=1 --branch $TAG -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
 cd "$TEMP_DIR"
 
 info "Installing ML4W Dotfiles Installer to ~/.local/bin..."
