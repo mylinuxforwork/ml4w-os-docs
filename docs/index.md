@@ -47,14 +47,17 @@ description: An advanced and full-featured Operating System and configuration fo
 />
 
 <div align="center">
+### ML4W OS Live ISO
+
+Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install the ML4W OS with Arch Linux (BETA).
+
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.10.1-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
 
 ### Installation on your Linux Distribution
 
 > Please note that 2.13.0 has introduced the new LUA based Hyprland configuration. In case of an update, you have to convert your custom.conf and individual configurations into the new lua format.
 
-The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> **Fedora**.
-
-Copy the following url into a terminal to start the installation or update:
+The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> **Fedora**.Copy the following url into a terminal to start the installation or update:
 
 ::: code-group
 

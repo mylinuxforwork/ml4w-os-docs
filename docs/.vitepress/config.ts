@@ -22,6 +22,7 @@ export default {
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/getting-started/overview" },
+      { text: "Download ISO", link: "https://ml4w.com/iso/ml4w-os/ml4w-os-2.10.1-x86_64.iso" },
       {
         text: "Showcases",
         link: "/showcases",
