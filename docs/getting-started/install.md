@@ -47,7 +47,7 @@ You can find the Hyprland Installation instructions on [hyprland wiki](https://w
 
 You can test the ML4W OS without risk with the ML4W OS Live ISO.
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.11.1-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.1-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
 
 > [!IMPORTANT]
 > The ML4W OS will be started automatically with the user 'liveuser' and password 'liveuser'.

@@ -12,6 +12,7 @@ quick # Launch quicklinks CLI
 wallpaper # Launch the wallpaper selector CLI
 system # Launch btop
 v # Neovim
+settings # Launch ML4W Settings
 lock # Lock the screen
 reboot # Reboot the system
 shutdown # Shutdown the system
