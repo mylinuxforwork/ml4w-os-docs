@@ -1,6 +1,6 @@
 # ML4W Dotfiles Settings
 
-You can open the ML4W Dotfiles Settings from the sidepad. You can also start the Dotfiles App from the terminal with:
+You can open the ML4W Dotfiles Settings from the sidepad. You can also start the Dotfiles App from the terminal with
 
 ```sh
 ml4w-settings
@@ -8,7 +8,7 @@ ml4w-settings
 
 ![Screenshot](/ml4w-dotfiles-settings.jpg)
 
-The ML4W Dotfiles settings are also available as a terminal app. You can open it from the terminal with:
+The ML4W Dotfiles settings are also available as a terminal app. You can open it from the terminal with
 
 ```sh
 settings
