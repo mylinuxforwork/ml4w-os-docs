@@ -19,7 +19,11 @@ Here are the most important keybindings that you need to know to start with the 
 | <kbd>SUPER</kbd> + <kbd>RETURN</kbd> | Open terminal |
 | <kbd>SUPER</kbd> + <kbd>B</kbd> | Open browser |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>RETURN</kbd> | Launch `rofi` app launcher |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>S</kbd> | Launch ML4W settings script |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>S</kbd> | Launch ML4W sidebar |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>W</kbd> | Launch ML4W wallpaper selector |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>C</kbd> | Launch ML4W calendar |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd> | Launch ML4W power menu |
+| <kbd>SUPER</kbd> + <kbd>Tab</kbd> | Quickshell Windows |
 
 ### 🖼️ UI & Environment
 

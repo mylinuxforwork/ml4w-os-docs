@@ -2,7 +2,7 @@
 
 The ML4W OS - Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install from a Live ISO or with the Dotfiles Installer app with setup scripts for Arch Linux, Fedora and openSuse.
 
-![image](/screen-2120.jpg)
+![image](/screen-2122.jpg)
 
 > [!NOTE]
 > This Wiki is covering the latest features of the ML4W OS. Please make sure that the latest version of the ML4W OS is installed on your system. Follow the installation and update instructions.
@@ -30,14 +30,14 @@ The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following dis
 - Terminal: `kitty`
 - Editor: `nvim`
 - Prompt: `oh-my-posh`
-- Wallpaper: `hyprpaper` with `waypaper` (swww optional)
+- Wallpaper: `awww`
 - Icons: `Font Awesome`
 - Launch Menus: `Rofi` (Wayland)
 - Color theme: `pywal`
 - Browsers: `Firefox` (Chromium and Brave optional)
 - Filemanager: `Nautilus` (yazi and dolphin optional)
 - Cursor: `Bibata Modern Ice`
-- Icons: `Papirus-Icon-Theme`
+- Icons: `Kora`
 - Status Bar: `waybar`
 - Screenshots: `grim` & `slurp` & `grimblast`
 - Clipboard Manager: `cliphist`
@@ -47,7 +47,7 @@ The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following dis
 - GTK Theme Manager: `nwg-look`
 - QT6 Theme Manager: `qt6ct`
 
-![image](/screen-2111.jpg)
+![image](/screen-2120.jpg)
 
 > [!NOTE]
 > Every Linux distribution and setup can be different. Therefore, I cannot guarantee that the installation will work everywhere. Installation on your own risk.

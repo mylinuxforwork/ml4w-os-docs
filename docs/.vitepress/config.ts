@@ -28,7 +28,7 @@ export default {
         activeMatch: "/showcases/",
       },
      {
-        text: "2.12.1",
+        text: "2.12.2",
         items: [
           {
             text: 'Changelog',
@@ -99,8 +99,6 @@ export default {
             { text: "Monitor Setup", link: "/configuration/monitor-setup" },
             { text: "Keyboard, Mouse, Touchpad", link: "/configuration/input" },
             { text: "Shell", link: "/customization/shell" },
-            { text: "Default Terminal", link: "/customization/terminal" },
-            { text: "Default Browser", link: "/customization/browser" },
             { text: "Display Manager", link: "/customization/displaymanager" },
             { text: "Hyprland + NVIDIA", link: "/configuration/hypr-nvidia" },
             { text: "Switch SDL (X11/Wayland)", link: "/configuration/xwayland" },
