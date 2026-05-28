@@ -13,9 +13,6 @@ The recommended way to launch the ML4W OS Hyprland is with the Display Manager S
 You can also start Hyprland from the command line with
 
 ```sh
-# Start Hyprland on 0.53.x
+# Start Hyprland
 start-hyprland
-
-# Start Hyprland on 0.52.x
-Hyprland
 ```

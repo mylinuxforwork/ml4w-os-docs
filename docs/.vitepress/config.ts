@@ -28,7 +28,7 @@ export default {
         activeMatch: "/showcases/",
       },
      {
-        text: "2.12.3",
+        text: "2.13.0",
         items: [
           {
             text: 'Changelog',
@@ -123,13 +123,13 @@ export default {
           ],
         },
         {
-          text: "ML4W Apps",
+          text: "Settings Apps",
           collapsed: true,
           items: [
             { text: "Welcome App", link: "/ml4w-apps/welcome" },
             { text: "Sidebar App", link: "/ml4w-apps/sidebar" },
             { text: "Dotfiles Settings", link: "/ml4w-apps/dotfiles-app" },
-            { text: "Hyprland Settings", link: "/ml4w-apps/hyprland-app" },
+            { text: "HyprMod", link: "/ml4w-apps/hyprmod" },
           ],
         },
         {

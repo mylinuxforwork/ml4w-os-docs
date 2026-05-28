@@ -12,8 +12,8 @@ If you want to enable the game mode permanently, you can activate the related va
 
 Open the Appearance tab. Change the variations to:
 
-- Decoration Variations: gamemode.conf
-- Window Variations: gamemode.conf
-- Animation Variations: disabled.conf
+- Decoration Variations: gamemode.lua
+- Window Variations: gamemode.lua
+- Animation Variations: disabled.lua
 
 ![image](/gamemode-settings.jpg)

@@ -22,11 +22,11 @@ The ML4W Welcome App is an easy access point to several fundamental system setti
 
 The Settings App gives you access to Waybar settings e.g., time/date format, to toggle several waybar modules and to increase the number of workspaces. In the appearance section you can define the position of the notification daemon dunst, some rofi settings, blur effects and variations for animation and windows. In the  wallpaper section you can define the wallpaper effect and clear the wallpaper cache. In system you can define the default applications, idle times, the monitor, keybindings and environment settings with configuration variations. You can extend the shipped variations with own custom variations easily. 
 
-## ML4W Hyprland Settings App
+## HyprMod
 
-![image](/hyprland-settings.jpg)
+![image](/hyprmod.png)
 
-The ML4W Hyprland App enables you to customize nearly all variables of Hyprland. You can define the window border size, gaps, blur settings, shadows and much more.
+Optionally you can install HyprMod to benefit from many customization opportunites directly offered in a GTK4 based app.
 
 ## Waybar Themes
 

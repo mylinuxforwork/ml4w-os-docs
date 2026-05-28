@@ -1,5 +1,11 @@
 # Troubleshooting
 
+## Configuration from custom.conf doesn't work anymore
+
+The latest ML4W OS is based on Hyprland 0.55.x with the new lua based configuration. You have to move your convert your custom.conf into lua and the file custom.lua
+
+You can find many examples here https://github.com/mylinuxforwork/dotfiles/tree/main/dotfiles/.config/hypr and in the official documentation of Hyprland https://wiki.hypr.land/Configuring/Start/
+
 ## Issues with SDDM Sequoia Theme
 
 <div class="tip custom-block" style="padding-top: 20px; padding-bottom: 20px;">
