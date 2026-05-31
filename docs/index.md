@@ -26,7 +26,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/807/807262.png" alt="scripts"/>
     title: Easy Testing & Installation
-    details: Install ML4W OS on your preferred Linux Distribution with the Dotfiles Installer. Or test (and install) by using the Live ISO. 
+    details: Install ML4W OS on your preferred Linux Distribution with the Dotfiles Installer. Or test (and install) by using the Live ISO.<br>(2.12.2 only - 2.13.0 coming soon) 
 
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/16076/16076100.png" alt="theme"/>
     title: Dynamic Themes & Desktop
@@ -41,22 +41,20 @@ description: An advanced and full-featured Operating System and configuration fo
 ---
 
 <img
-  src="/screen-2122.jpg"
+  src="/screen-2130.jpg"
   alt="preview"
   style="max-width: 900px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
 <div align="center">
 
-### ML4W OS Live ISO
-
-Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install the ML4W OS with Arch Linux (BETA).
-
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.2-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
-
 ### Installation on your Linux Distribution
 
-Copy the following url into a terminal to start the installation:
+> Please note that 2.13.0 has introduced the new LUA based Hyprland configuration. In case of an update, you have to convert your custom.conf and individual configurations into the new lua format.
+
+The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> **Fedora**.
+
+Copy the following url into a terminal to start the installation or update:
 
 ::: code-group
 
@@ -75,8 +73,13 @@ bash
 
 The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer" target="_blank">ML4W Dotfiles Installer</a>.
 
-The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> Fedora.<br>
-For other distros, please install <a href="https://github.com/mylinuxforwork/dotfiles/tree/main/setup/dependencies" target="_blank">the dependencies</a> first.
+
+### ML4W OS Live ISO (2.12.2)
+
+Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install the ML4W OS with Arch Linux (BETA).
+
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.2-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
+
 
 </div>
 

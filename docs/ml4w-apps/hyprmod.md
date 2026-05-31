@@ -19,5 +19,3 @@ You can also start the HyprMod from the terminal with
 hyprmod
 ```
 
-</div>
-
