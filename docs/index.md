@@ -41,7 +41,7 @@ description: An advanced and full-featured Operating System and configuration fo
 ---
 
 <img
-  src="/screen-2130.jpg"
+  src="/screen-2140.jpg"
   alt="preview"
   style="max-width: 900px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
