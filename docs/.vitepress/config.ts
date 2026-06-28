@@ -124,11 +124,13 @@ export default {
           ],
         },
         {
-          text: "Settings Apps",
+          text: "Apps",
           collapsed: true,
           items: [
             { text: "Welcome App", link: "/ml4w-apps/welcome" },
             { text: "Sidebar App", link: "/ml4w-apps/sidebar" },
+            { text: "Calendar App", link: "/ml4w-apps/calendar" },
+            { text: "Statusbar App", link: "/ml4w-apps/statusbar" },
             { text: "Dotfiles Settings", link: "/ml4w-apps/dotfiles-app" },
             { text: "HyprMod", link: "/ml4w-apps/hyprmod" },
           ],
