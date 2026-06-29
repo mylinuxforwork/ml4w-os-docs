@@ -1,23 +1,53 @@
-# Sidebar
+# Status Bar
 
-With the ML4W Sidebar you have fast access to all included ML4W Applications and some system information. 
+The ML4W OS includes a Quickshell based status bar. You can enable the status bar from the sidebar where you can also disable waybar.
 
-You can also start the sidebar from the terminal with 
-```sh
-ml4w-sidebar
+![image](/statusbar-collapsed.jpg)
+
+The status bar will appear at the top of the screen. When you hover wth your mouse the collapsed bar will expand and show more modules.
+
+![image](/statusbar-expanded.jpg)
+
+The colors will be generated automatically from the wallpaper
+
+## Configuration
+
+You can open the configuration file from the sidebar or with your editor from ~/.config/ml4w/settings/statusbar.json
+
+Here is a config file with all available options:
+
+```json
+{
+    "bar": {
+        "height": 40,
+        "reservedHeight": 72,
+        "enabled": true,
+        "alwaysExpanded": false
+    },
+    "pill": {
+        "collapsedWidth": 0,
+        "expandedWidth": 680,
+        "radius": 12,
+        "animationDuration": 350
+    },
+    "modules": {
+        "left":   ["terminal", "workspaces"],
+        "center": ["launcher", "clock", "swaync"],
+        "right":  ["updates", "systemtray", "logo", "power"]
+    },
+    "border": {
+        "width": 2,
+        "colorTop": "",
+        "colorBottom": ""
+    },
+    "opacity": {
+        "collapsed": 0.6,
+        "expanded": 0.8
+    },
+    "clock": {
+        "format": "HH:mm"
+    }
+}
 ```
 
-You can also open the sidebar with `SUPER+CTRL+S`
-
-![image](/ml4w-sidebar.jpg)
-
-From the Sidebar you can access the following functions:
-
-- Update Wallpaper: Opens the wallpaper selector
-- Change Waybar Theme: Opens the waybar theme switcher and gives access to the available themes for the waybar status bar
-- Change GTK Theme: Opens nwg-look to select the theme for GTK 3 applications incl. widgets, icons and cursors
-- Refresh GTK Settings: Reloads the Hyprland GTK configuration (required when changing the mouse cursor)
-- Hyprland Settings: Opens the Hyprland Settings script to customize the look and feel, environment variables, monitor resolution, etc.
-- Reload Waybar: Reloads the waybar
-- Toggle Waybar: You can hide or show waybar if needed or when you want to try our other status bars.
-- Toggle Dock: You can hide or show the dock.
+After changing the config, you need to reload the status bar from the sidebar or with SUPER + ALT + B.
