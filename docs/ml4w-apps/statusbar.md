@@ -12,9 +12,9 @@ The colors will be generated automatically from the wallpaper
 
 ## Configuration
 
-You can open the configuration file from the sidebar or with your editor from ~/.config/ml4w/settings/statusbar.json
+To configure the statusbar, please create the file ~/.config/ml4w-statusbar/statusbar.json and overwrite specific default values.
 
-Here is a config file with all available options:
+Here is an example with all available options:
 
 ```json
 {
