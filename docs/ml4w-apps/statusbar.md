@@ -17,11 +17,14 @@ To configure the statusbar, please create the file ~/.config/ml4w-statusbar/stat
 Here is an example with all available options:
 
 ```json
+/*
+Default configuration file for the Quickshell Statusbar.
+*/
 {
     "bar": {
         "height": 40,
         "reservedHeight": 72,
-        "enabled": true,
+        "enabled": false,
         "alwaysExpanded": false
     },
     "pill": {
@@ -31,9 +34,9 @@ Here is an example with all available options:
         "animationDuration": 350
     },
     "modules": {
-        "left":   ["terminal", "workspaces"],
+        "left":   ["workspaces", "terminal"],
         "center": ["launcher", "clock", "swaync"],
-        "right":  ["updates", "systemtray", "logo", "power"]
+        "right":  ["updates", "battery", "powerprofile", "volume", "systemtray", "logo", "power"]
     },
     "border": {
         "width": 2,
@@ -46,8 +49,14 @@ Here is an example with all available options:
     },
     "clock": {
         "format": "HH:mm"
+    },
+    "workspaces": {
+        "count": 5
     }
 }
+
 ```
 
 After changing the config, you need to reload the status bar from the sidebar or with SUPER + ALT + B.
+
+You can also download the full default from GitHub: https://github.com/mylinuxforwork/dotfiles/blob/main/dotfiles/.config/quickshell/StatusbarApp/statusbar.json
