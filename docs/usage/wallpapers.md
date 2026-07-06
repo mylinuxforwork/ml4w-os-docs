@@ -1,4 +1,17 @@
-# Wallpaper with waypaper
+# Wallpapers
+
+## Integated Wallpaper App
+
+You can open the integrated wallpaper app from the sidebar or with the keybinding 
+SUPER + CTRL + W.
+
+![image](/wallpaper.jpg)
+
+Click on the settings icon right next to the searhc field to open the Advanced Options.
+
+You can select your wallpaper folder, the transition effect for awww and the monitor settings.
+
+## Waypaper
 
 You can select a wallpaper with Waypaper. You can start Waypaper from the App Launcher or from the sidebar.
 

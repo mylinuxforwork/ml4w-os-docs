@@ -9,15 +9,17 @@ ml4w-sidebar
 
 You can also open the sidebar with `SUPER+CTRL+S`
 
-![image](/ml4w-sidebar.jpg)
+![image](/sidebar.jpg)
 
 From the Sidebar you can access the following functions:
 
+- Switch between waybar and the Quickshell status bar
+- Toggle the status bar
+- Set the quickshell status bar to expanded only mode
+- Reload status bar: Reloads the current status bar
 - Update Wallpaper: Opens the wallpaper selector
 - Change Waybar Theme: Opens the waybar theme switcher and gives access to the available themes for the waybar status bar
 - Change GTK Theme: Opens nwg-look to select the theme for GTK 3 applications incl. widgets, icons and cursors
 - Refresh GTK Settings: Reloads the Hyprland GTK configuration (required when changing the mouse cursor)
 - Hyprland Settings: Opens the Hyprland Settings script to customize the look and feel, environment variables, monitor resolution, etc.
-- Reload Waybar: Reloads the waybar
-- Toggle Waybar: You can hide or show waybar if needed or when you want to try our other status bars.
 - Toggle Dock: You can hide or show the dock.
