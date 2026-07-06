@@ -48,7 +48,8 @@ Default configuration file for the Quickshell Statusbar.
         "expanded": 0.8
     },
     "clock": {
-        "format": "HH:mm"
+        "format": "HH:mm",
+        "dateFormat": "ddd, dd MMM"
     },
     "workspaces": {
         "count": 5
