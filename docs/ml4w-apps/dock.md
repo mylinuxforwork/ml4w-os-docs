@@ -1,6 +1,6 @@
 # Dock
 
-The ML4W OS includes a Quickshell based dock
+The ML4W OS includes a Quickshell based dock. The colors will be generated automatically from the wallpaper.
 
 The dock will appear at the bottom of the screen and will show the pinned and currently running apps. 
 
@@ -8,7 +8,7 @@ The dock will appear at the bottom of the screen and will show the pinned and cu
 
 You can open a context menu with a right click on an icon to pin/unpin an app, to launch the app, or to open another app window.
 
-The colors will be generated automatically from the wallpaper.
+The dock can be toggled from the sidebar or with SUPER + CTRL + D
 
 ## Configuration
 
