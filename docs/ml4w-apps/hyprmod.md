@@ -4,6 +4,8 @@
 
 This applications supports you to customize many details of your Hyprland installation. You can overwrite the existing configuration with custom values without adding complex configuration files.**
 
+![image](/hyprmod.jpg)
+
 ## Installation
 
 HyprMod is not included in ML4W OS directly and needs to be insatlled separately.

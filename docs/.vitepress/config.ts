@@ -141,14 +141,7 @@ export default {
           ],
         },
         {
-          text: "Development",
-          collapsed: true,
-          items: [
-            { text: "Contributing to wiki", link: "development/wiki" },
-          ]
-        },
-        {
-          text: "Credentials",
+          text: "Credits",
           items: [
             { text: "Special Thanks", link: "credentials/thankyou" },
           ]

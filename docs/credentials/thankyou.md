@@ -19,4 +19,4 @@ The following projects have inspired me:
 
 and many more...
 
-And of course https://github.com/vaxerski for this awesome software.
+And of course https://github.com/vaxerski and team for this awesome software.
