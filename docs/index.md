@@ -15,7 +15,7 @@ hero:
       link: /getting-started/overview
     - theme: brand
       text: Live ISO 
-      link: https://ml4w.com/iso/ml4w-os/ml4w-os-2.14.1-x86_64.iso
+      link: https://ml4w.com/iso/ml4w-os/ml4w-os-2.15-x86_64.iso
     - theme: alt
       text: Install 
       link: /getting-started/install
@@ -50,7 +50,7 @@ description: An advanced and full-featured Operating System and configuration fo
 
 ### Installation on your Linux Distribution
 
-The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed** and <i class="devicon-fedora-plain"></i> **Fedora**.Copy the following url into a terminal to start the installation or update:
+The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-fedora-plain"></i> **Fedora** and <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed**. Copy the following url into a terminal to start the installation or update:
 
 ::: code-group
 
@@ -74,7 +74,7 @@ The installation is based on the new script based <a href="https://ml4w.com/dotf
 
 Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install the ML4W OS with Arch Linux (BETA).
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.14.1-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.15-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
 
 
 </div>

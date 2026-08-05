@@ -22,14 +22,14 @@ export default {
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/getting-started/overview" },
-      { text: "Download ISO", link: "https://ml4w.com/iso/ml4w-os/ml4w-os-2.14.1-x86_64.iso" },
+      { text: "Download ISO", link: "https://ml4w.com/iso/ml4w-os/ml4w-os-2.15-x86_64.iso" },
       {
         text: "Showcases",
         link: "/showcases",
         activeMatch: "/showcases/",
       },
      {
-        text: "2.14.1",
+        text: "2.15",
         items: [
           {
             text: 'Changelog',
@@ -107,8 +107,7 @@ export default {
             // { text: "Sidepad", link: "/usage/sidepad" },
             { text: "Terminal CLI", link: "/usage/terminal" },
             { text: "Screenshots", link: "/usage/screenshots" },
-            { text: "Game Mode", link: "/usage/game-mode" },
-            { text: "Activate Walker", link: "/configuration/walker" },
+            { text: "Game Mode", link: "/usage/game-mode" }
           ],
         },
         {
@@ -126,9 +125,10 @@ export default {
           text: "Apps",
           items: [
             { text: "Welcome", link: "/ml4w-apps/welcome" },
+            { text: "Statusbar", link: "/ml4w-apps/statusbar" },
+            { text: "Dock", link: "/ml4w-apps/dock" },
             { text: "Sidebar", link: "/ml4w-apps/sidebar" },
             { text: "Calendar", link: "/ml4w-apps/calendar" },
-            { text: "Statusbar", link: "/ml4w-apps/statusbar" },
             { text: "Dotfiles Settings", link: "/ml4w-apps/dotfiles-app" },
             { text: "HyprMod", link: "/ml4w-apps/hyprmod" },
           ],

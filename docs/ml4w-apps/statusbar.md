@@ -4,11 +4,11 @@ The ML4W OS includes a Quickshell based status bar. You can enable the status ba
 
 ![image](/statusbar-collapsed.jpg)
 
-The status bar will appear at the top of the screen. When you hover wth your mouse the collapsed bar will expand and show more modules.
+The status bar will appear at the top of the screen. When you hover with your mouse the collapsed bar will expand and show more modules.
 
 ![image](/statusbar-expanded.jpg)
 
-The colors will be generated automatically from the wallpaper
+The colors will be generated automatically from the wallpaper.
 
 ## Configuration
 

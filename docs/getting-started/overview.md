@@ -22,7 +22,7 @@ The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following dis
 - Arco Linux
 - CachyOS
 - openSuse Tumbleweed
-- Fedora Workstation 43
+- Fedora Workstation 44
 
 ## Main packages
 
@@ -38,12 +38,11 @@ The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following dis
 - Filemanager: `Nautilus` (yazi and dolphin optional)
 - Cursor: `Bibata Modern Ice`
 - Icons: `Kora`
-- Status Bar: `waybar`
+- Optional Status Bar: `waybar`
 - Screenshots: `grim` & `slurp` & `grimblast`
 - Clipboard Manager: `cliphist`
 - Idle Manager: `hypridle`
 - Screenlock: `hyprlock`
-- Dock: `nwg-dock-hyprland`
 - GTK Theme Manager: `nwg-look`
 - QT6 Theme Manager: `qt6ct`
 
