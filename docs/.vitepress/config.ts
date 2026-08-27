@@ -22,14 +22,14 @@ export default {
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/getting-started/overview" },
-      { text: "Download ISO", link: "https://ml4w.com/iso/ml4w-os/ml4w-os-2.15-x86_64.iso" },
+      { text: "Download ISO", link: "https://ml4w.com/iso/ml4w-os/ml4w-os-2.15.1-x86_64.iso" },
       {
         text: "Showcases",
         link: "/showcases",
         activeMatch: "/showcases/",
       },
      {
-        text: "2.15",
+        text: "2.15.1",
         items: [
           {
             text: 'Changelog',
