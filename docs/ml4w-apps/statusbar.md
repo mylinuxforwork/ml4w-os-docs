@@ -12,22 +12,53 @@ The status bar will appear at the top of the screen. When you hover with your mo
 
 The status bar can be toggled from the sidebar or with SUPER + CTRL + B
 
-## Configuration
+## Calendar
 
-To configure the statusbar, please create the file ~/.config/ml4w-statusbar/statusbar.json and overwrite specific default values.
+The status bar includes a calendar. It opens below the clock module when you click the clock. It shows the current month with week numbers, and you can switch between months and jump back to the current month with the **Today** button.
 
-Here is an example with all available options:
+![image](/calendar.jpg)
+
+You can also open the calendar with SUPER + CTRL + C or with this command in your terminal:
+
+```sh
+ml4w-calendar
+```
+
+The calendar closes when you press Escape or click outside of it.
+
+You can set an alternative calendar app, e.g. GNOME Calendar, with the `calendarCommand` option in the `clock` section of the configuration. A right click on the clock then opens that app:
 
 ```json
-/*
-Default configuration file for the Quickshell Statusbar.
-*/
+{
+    "clock": {
+        "calendarCommand": "gnome-calendar"
+    }
+}
+```
+
+The command runs through bash, so arguments work too.
+
+## Configuration
+
+The status bar is configured in one file only: `~/.config/ml4w-statusbar/config.json`. The file is created on first start and merged over the built-in defaults, so it only needs the values you want to change. You can edit it directly.
+
+::: info
+In earlier versions the status bar was configured in `~/.config/ml4w-statusbar/statusbar.json` or `~/.config/ml4w/settings/statusbar.json`. If one of these files exists, its settings are migrated into `config.json` on first start.
+:::
+
+The status bar writes some settings back into the file itself: `enabled`, `alwaysExpanded` and `autohide`.
+
+Here is the default configuration with all available options:
+
+```json
 {
     "bar": {
         "height": 40,
         "reservedHeight": 72,
-        "enabled": false,
-        "alwaysExpanded": false
+        "enabled": true,
+        "alwaysExpanded": true,
+        "autohide": false,
+        "hideDelay": 400
     },
     "pill": {
         "collapsedWidth": 0,
@@ -36,7 +67,7 @@ Default configuration file for the Quickshell Statusbar.
         "animationDuration": 350
     },
     "modules": {
-        "left":   ["workspaces", "terminal"],
+        "left":   ["terminal", "workspaces"],
         "center": ["launcher", "clock", "swaync"],
         "right":  ["updates", "battery", "powerprofile", "volume", "systemtray", "logo", "power"]
     },
@@ -51,15 +82,18 @@ Default configuration file for the Quickshell Statusbar.
     },
     "clock": {
         "format": "HH:mm",
-        "dateFormat": "ddd, dd MMM"
+        "dateFormat": "ddd, dd MMM",
+        "calendarCommand": ""
     },
     "workspaces": {
         "count": 5
+    },
+    "systemtray": {
+        "chip": true
     }
 }
-
 ```
 
-After changing the config, you need to reload the status bar from the sidebar or with SUPER + ALT + B.
+After you change the configuration, reload the status bar from the sidebar or with SUPER + SHIFT + B.
 
-You can also download the full default from GitHub: https://github.com/mylinuxforwork/dotfiles/blob/main/dotfiles/.config/quickshell/StatusbarApp/statusbar.json
+The full default configuration with comments is on GitHub: https://github.com/mylinuxforwork/dotfiles/blob/main/dotfiles/.config/quickshell/StatusbarApp/config.json
