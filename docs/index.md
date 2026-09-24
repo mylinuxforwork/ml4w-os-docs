@@ -8,7 +8,7 @@ hero:
     src: /ml4w.svg
     alt: ML4W logo
     style: "width: 200px; height: auto;"
-  tagline: An advanced and full-featured Operating System and Dotfiles Configuration based on the dynamic tiling window manager Hyprland.
+  tagline: An advanced, full-featured operating system and dotfiles configuration based on the dynamic tiling window manager Hyprland.
   actions:
     - theme: brand
       text: Get Started 
@@ -26,18 +26,18 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/807/807262.png" alt="scripts"/>
     title: Easy Testing & Installation
-    details: Install ML4W OS on your preferred Linux Distribution with the Dotfiles Installer. Or test (and install) by using the Live ISO.
+    details: Install ML4W OS on your preferred Linux distribution with the Dotfiles Installer, or test (and install) it with the Live ISO.
 
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/16076/16076100.png" alt="theme"/>
     title: Dynamic Themes & Desktop
-    details: Experience a complete desktop based on the Dynamic Tiling Window Manager Hyprland, adaptive material themes, dark & light mode.
+    details: Experience a complete desktop based on the dynamic tiling window manager Hyprland, with adaptive Material themes and dark & light mode.
 
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3815/3815573.png" alt="configuration"/>
     title: Many Customization Options
     details: Comes with helpful graphical apps and tools to configure your setup, change themes, and tweak your environment.
 
-metaTitle: "The ML4W OS - Dotfiles for Hyprland"
-description: An advanced and full-featured Operating System and configuration for the dynamic tiling window manager Hyprland including an easy to use Live ISO and installation procedure with the Dotfiles Installer script and full support for for Arch Linux, Fedora and openSuse.
+metaTitle: "ML4W OS - Dotfiles for Hyprland"
+description: An advanced, full-featured operating system and configuration for the dynamic tiling window manager Hyprland, including an easy-to-use Live ISO, installation with the Dotfiles Installer script and full support for Arch Linux, Fedora and openSUSE.
 ---
 
 <img
@@ -50,7 +50,7 @@ description: An advanced and full-featured Operating System and configuration fo
 
 ### Installation on your Linux Distribution
 
-The script will install the required dependencies for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-fedora-plain"></i> **Fedora** and <i class="devicon-opensuse-plain"></i> **openSuse Tumbleweed**. Copy the following url into a terminal to start the installation or update:
+The script will install the required dependencies and ML4W OS for <i class="devicon-archlinux-plain"></i> **Arch**, <i class="devicon-fedora-plain"></i> **Fedora** and <i class="devicon-opensuse-plain"></i> **openSUSE Tumbleweed**. Copy one of the following commands into a terminal to start the installation or to run the update:
 
 ::: code-group
 
@@ -67,12 +67,12 @@ bash
 ```
 :::
 
-The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer" target="_blank">ML4W Dotfiles Installer</a>.
+The installation is based on the new script-based <a href="https://ml4w.com/dotfiles-installer" target="_blank">ML4W Dotfiles Installer</a>.
 
 
 ### ML4W OS Live ISO
 
-Run ML4W OS from a bootable USB Stick or directly in a KVM/Qemu virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install the ML4W OS with Arch Linux (BETA).
+Run ML4W OS from a bootable USB stick or directly in a KVM/QEMU virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install ML4W OS with Arch Linux (beta).
 
 <a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.16-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
 

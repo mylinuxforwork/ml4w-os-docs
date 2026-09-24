@@ -1,16 +1,16 @@
 # Status Bar
 
-The ML4W OS includes a Quickshell based status bar. You can enable the status bar from the sidebar where you can also disable waybar. The colors will be generated automatically from the wallpaper.
+ML4W OS includes a Quickshell-based status bar. You can enable the status bar from the sidebar, where you can also disable Waybar. The colors are generated automatically from the wallpaper.
 
 ![image](/statusbar-collapsed.jpg)
 
-The status bar will appear at the top of the screen. When you hover with your mouse the collapsed bar will expand and show more modules. You can also expand the status bar with SUPER + SPACE and use your arrow keys to navigate between the modules. Return excutes the module function.
+The status bar appears at the top of the screen. When you hover over the collapsed bar with your mouse, it expands and shows more modules. You can also expand the status bar with SUPER + SPACE and use the arrow keys to move between the modules. Press Return to run the selected module's action.
 
 ![image](/statusbar-expanded.jpg)
 
-> The default status bar will be loaded expanded.
+> By default, the status bar starts expanded.
 
-The status bar can be toggled from the sidebar or with SUPER + CTRL + B
+You can toggle the status bar from the sidebar or with SUPER + CTRL + B.
 
 ## Calendar
 

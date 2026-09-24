@@ -1,6 +1,6 @@
 # Dock
 
-The ML4W OS includes the ML4W Dock, a dock for Hyprland built with Quickshell. The colors are generated automatically from the wallpaper.
+ML4W OS includes the ML4W Dock, a dock for Hyprland built with Quickshell. The colors are generated automatically from the wallpaper.
 
 The dock appears at the bottom of the screen and shows the pinned and currently running apps.
 

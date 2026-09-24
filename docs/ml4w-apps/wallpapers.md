@@ -8,7 +8,7 @@ You can open the integrated wallpaper app from the sidebar or with the keybindin
 
 Click the settings icon next to the search field to open the Advanced Options.
 
-You can select your wallpaper folder, the transition effect for awww and the monitor settings.
+There you can select your wallpaper folder, the transition effect for awww and the monitor settings.
 
 ## Wallpaper Keybindings
 
@@ -20,9 +20,9 @@ You can select your wallpaper folder, the transition effect for awww and the mon
 
 ## Wallpaper Automation
 
-You can activate an automated wallpaper change with the key binding above. The automated wallpaper process can be stopped with the same key binindg.
+You can start an automatic wallpaper change with the keybinding above. Press the same keybinding again to stop it.
 
-The delay time in seconds between the wallpaper change (default 60 seconds) can be set in `~/.config/ml4w/settings/wallpaper-automation.sh`
+You can set the delay between two wallpaper changes in seconds (default: 60) in `~/.config/ml4w/settings/wallpaper-automation.sh`.
 
 ## Wallpaper Effects
 
@@ -45,20 +45,19 @@ magick $IMAGE_PATH -brightness-contrast -60% $IMAGE_PATH
 
 ## Wallpaper Cache
 
-Generated versions of a wallpaper will be cached in the folder `~/.config/ml4w/cache/wallpaper-generated`
-This will speed up the switch between wallpapers if cached files exist. 
+Generated versions of a wallpaper are cached in the folder `~/.config/ml4w/cache/wallpaper-generated`. This speeds up switching between wallpapers when cached files exist.
 
 You can disable the cache in the ML4W Settings App.
 
-You can clear the cache in the ML4W Settings App or with 
+You can clear the cache in the ML4W Settings App or with this command:
 
 ```sh
 ~/.config/hypr/scripts/wallpaper-cache.sh
 ```
 
-You can regenerate the version of the current wallpaper by switching of the cache in the settings app and select the same wallpaper again.
+To regenerate the current wallpaper, turn off the cache in the Settings App and select the same wallpaper again.
 
-## The ML4W Wallpaper repository
+## The ML4W Wallpaper Repository
 
-You can download more wallpapers [ML4W Wallpaper repository](https://github.com/mylinuxforwork/wallpaper/blob/main/README.md)
+You can download more wallpapers from the [ML4W Wallpaper repository](https://github.com/mylinuxforwork/wallpaper/blob/main/README.md).
 
