@@ -47,8 +47,12 @@ export default {
             link: 'https://ml4w.com/dotfiles-installer/'
           },
           {
-            text: 'ML4W Hyprland Starter',
-            link: 'https://github.com/mylinuxforwork/hyprland-starter'
+            text: 'ML4W Dock',
+            link: 'https://github.com/mylinuxforwork/ml4w-dock'
+          },
+          {
+            text: 'ML4W Power Menu',
+            link: 'https://github.com/mylinuxforwork/ml4w-powermenu'
           },
           {
             text: 'Wallpapers',
@@ -125,6 +129,7 @@ export default {
             { text: "Welcome", link: "/ml4w-apps/welcome" },
             { text: "Statusbar", link: "/ml4w-apps/statusbar" },
             { text: "Dock", link: "/ml4w-apps/dock" },
+            { text: "Power Menu", link: "/ml4w-apps/powermenu" },
             { text: "Sidebar", link: "/ml4w-apps/sidebar" },
             { text: "Wallpapers", link: "/ml4w-apps/wallpapers" },
             { text: "Dotfiles Settings", link: "/ml4w-apps/dotfiles-app" },
