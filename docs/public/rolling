@@ -11,6 +11,15 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 TAG="0.2.9"
+USE_MAIN=false
+
+# --- Arguments ---
+# --main: skip the TAG and install the latest code from the main branch
+for arg in "$@"; do
+    case "$arg" in
+        --main|--dev) USE_MAIN=true ;;
+    esac
+done
 
 # --- UI ---
 info() { echo -e "${BLUE}[BOOTSTRAP]${NC} $1"; }
@@ -39,10 +48,16 @@ fi
 
 # 2. Prepare Temporary Folder
 TEMP_DIR=$(mktemp -d -t ml4w-installer-XXXXXX)
-info "Cloning ML4W Dotfiles Installer $TAG into $TEMP_DIR..."
+if [[ "$USE_MAIN" == true ]]; then
+    BRANCH="main"
+    warn "Installing the latest code from the main branch (may be unstable)."
+else
+    BRANCH="$TAG"
+fi
+info "Cloning ML4W Dotfiles Installer $BRANCH into $TEMP_DIR..."
 
 # 3. Clone and Install the App
-git clone --depth=1 --branch $TAG -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
+git clone --depth=1 --branch "$BRANCH" -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
 cd "$TEMP_DIR"
 
 info "Installing ML4W Dotfiles Installer to ~/.local/bin..."
