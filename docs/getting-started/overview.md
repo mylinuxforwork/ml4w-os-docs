@@ -1,6 +1,6 @@
 # Overview
 
-The ML4W OS - Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install from a Live ISO or with the Dotfiles Installer app with setup scripts for Arch Linux, Fedora and openSuse.
+The ML4W OS - Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland. Ready to install on top of your existing distribution with the Dotfiles Installer (recommended), with setup scripts for Arch Linux (recommended), Fedora, Ubuntu and openSUSE Tumbleweed. You can also test it with the Live ISO.
 
 ![image](/screen-216.jpg)
 
@@ -13,7 +13,9 @@ You can find the latest features in the [CHANGELOG](https://github.com/mylinuxfo
 
 ## Supported platforms
 
-The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following distributions:
+The recommended way to install ML4W OS is on top of an existing distribution with the [Dotfiles Installer](/getting-started/install). The ML4W OS Hyprland (with Dotfiles Installer) is tested with the following distributions:
+
+**Arch Linux and Arch-based distributions (recommended)**
 
 - Arch Linux
 - EndeavourOS
@@ -21,8 +23,16 @@ The ML4W OS Hyprland (with Dotfiles Installer) are tested with the following dis
 - Garuda Linux
 - Arco Linux
 - CachyOS
-- openSuse Tumbleweed
+
+**Other supported distributions**
+
 - Fedora Workstation 44
+- Ubuntu (and other apt-based distributions)
+- openSUSE Tumbleweed
+
+::: tip RECOMMENDATION
+Arch Linux or an Arch-based distribution is recommended. Hyprland is developed and tested on Arch, and all required packages are available in the latest versions.
+:::
 
 ## Main packages
 

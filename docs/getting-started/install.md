@@ -1,6 +1,11 @@
 # Installation
 
-## Installation on your Distribution
+There are two ways to get ML4W OS:
+
+1. **Installation on top of your existing distribution (recommended)** with the ML4W Dotfiles Installer. Arch Linux and Arch-based distributions are recommended.
+2. **Test (and install) with the ML4W OS Live ISO** (beta).
+
+## Installation on your Distribution (recommended)
 
 ::: warning BEFORE YOU START
 Please back up your existing `~/.config` folder with your dotfiles before starting the scripts for initial installation.
@@ -9,7 +14,7 @@ Please back up your existing `~/.config` folder with your dotfiles before starti
 > [!IMPORTANT]
 > The installation is based on the new script based <a href="https://ml4w.com/dotfiles-installer">ML4W Dotfiles Installer</a>. The Dotfiles Installer Flatpak is still available but not supported anymore. You can uninstall the Dotfiles Installer with `flatpak uninstall com.ml4w.dotfilesinstaller`.
 
-You can install the ML4W OS Hyprland on your distribution. Copy the following url into a terminal to start the installation:
+The recommended way is to install ML4W OS Hyprland on top of your existing distribution. Copy one of the following commands into a terminal to start the installation:
 
 ::: code-group
 
@@ -26,7 +31,18 @@ bash
 ```
 :::
 
-Setup scripts to install the required dependencies are included for Arch Linux (recommended), Fedora and openSuse Tumbleweed.
+Setup scripts to install the required dependencies are included for:
+
+| Distribution | Package manager | Status |
+|--------|--------|--------|
+| Arch Linux and Arch-based distributions (EndeavourOS, CachyOS, Manjaro, Garuda, ...) | `pacman` | **Recommended** |
+| Fedora | `dnf` | Supported |
+| Ubuntu and other apt-based distributions | `apt` | Supported |
+| openSUSE Tumbleweed | `zypper` | Supported |
+
+::: tip RECOMMENDATION
+Arch Linux or an Arch-based distribution is recommended for the best experience. Hyprland is developed and tested on Arch, and the latest versions of all required packages are available there.
+:::
 
 > [!IMPORTANT]
 Cachy OS is using the fish shell. Please use the fish shell installation commands. You can ignore the fish shell error messages at the end of the installation procedure.
@@ -45,7 +61,7 @@ You can find the Hyprland Installation instructions on [hyprland wiki](https://w
 
 ## Test and Install (BETA) with the ML4W OS Live ISO
 
-You can test the ML4W OS without risk with the ML4W OS Live ISO.
+You can test the ML4W OS without risk with the ML4W OS Live ISO. For a permanent setup, the installation on top of your existing distribution (see above) is recommended.
 
 <a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.2-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
 
