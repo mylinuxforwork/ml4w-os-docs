@@ -4,6 +4,7 @@ I want to say thank you to all contributors of the ML4W OS - Dotfiles for Hyprla
 
 Special Thanks do to...
 
+https://github.com/solidus1983 for pushing the support for Ubuntu.
 https://github.com/Affanmm for the great and professional ML4W Logo Design and much more.
 https://github.com/harilvfs for supporting me in creating the new Wiki https://mylinuxforwork.github.io/dotfiles/
 https://github.com/dwilliam62 for all your support and testings since the start of the Project
