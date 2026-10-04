@@ -38,7 +38,7 @@ Setup scripts to install the required dependencies are included for:
 | Arch Linux and Arch-based distributions (EndeavourOS, CachyOS, Manjaro, Garuda, ...) | `pacman` | **Recommended** |
 | Fedora | `dnf` | Supported |
 | Ubuntu and other apt-based distributions | `apt` | Supported |
-| openSUSE Tumbleweed | `zypper` | Supported |
+| openSUSE Tumbleweed | `zypper` | Supported(*) |
 
 ::: tip RECOMMENDATION
 Arch Linux or an Arch-based distribution is recommended for the best experience. Hyprland is developed and tested on Arch, and the latest versions of all required packages are available there.
@@ -47,17 +47,14 @@ Arch Linux or an Arch-based distribution is recommended for the best experience.
 > [!IMPORTANT]
 Cachy OS is using the fish shell. Please use the fish shell installation commands. You can ignore the fish shell error messages at the end of the installation procedure.
 
+> [!IMPORTANT]
+(*) There are currently issues on openSuse Tumbleweed to install quickshell. If the installation of Quickshell fails, try to install it manually as described here: https://quickshell.org/docs/v0.3.0/guide/install-setup/#opensuse--debian
+
 From Hyprland Wiki: We officially run and test Hyprland on Arch and NixOS, and we guarantee Hyprland will work there. For any other distro (not based on Arch/Nix) you might have varying amounts of success. However, since Hyprland is extremely bleeding-edge, point release distros like Pop!_OS, Fedora, Ubuntu, etc. will have major issues running Hyprland. Rolling release distros like openSUSE, Solus ,etc. will likely be fine.
 
 The installation of dependencies can take between 5 to 15 minutes depending on your internet connection and system performance.
 
 The Dotfiles will be installed into the folder `~/.mydotfiles` with symbolic links into `~/.config`.
-
-::: info RECOMMENDATION
-I recommend to install a base Hyprland system before installing the ML4W Hyprland Dotfiles. Then you have a stable starting point and can test Hyprland on your system before. Hyprland is complex, under ongoing development and requires additional components. 
-
-You can find the Hyprland Installation instructions on [hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
-:::
 
 ## Test and Install (BETA) with the ML4W OS Live ISO
 
