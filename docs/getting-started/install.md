@@ -60,7 +60,7 @@ The Dotfiles will be installed into the folder `~/.mydotfiles` with symbolic lin
 
 You can test the ML4W OS without risk with the ML4W OS Live ISO. For a permanent setup, the installation on top of your existing distribution (see above) is recommended.
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.2-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.16.1-x86_64.iso" target="_blank">Download ML4W OS Live ISO</a>
 
 > [!IMPORTANT]
 > The ML4W OS will be started automatically with the user 'liveuser' and password 'liveuser'.
