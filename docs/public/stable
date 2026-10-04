@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# ML4W OS Setup Stable Release
+# ML4W OS Setup Rolling Release
 set -e
 
 # --- Colors ---
@@ -11,6 +11,15 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 TAG="0.3.0"
+USE_MAIN=false
+
+# --- Arguments ---
+# --main: skip the TAG and install the latest code from the main branch
+for arg in "$@"; do
+    case "$arg" in
+        --main|--dev) USE_MAIN=true ;;
+    esac
+done
 
 # --- UI ---
 info() { echo -e "${BLUE}[BOOTSTRAP]${NC} $1"; }
@@ -33,16 +42,27 @@ elif command -v zypper &> /dev/null; then
     DISTRO="opensuse"
     info "openSUSE detected. Installing base dependencies..."
     sudo zypper install -y git make curl jq
+elif command -v apt &> /dev/null; then
+    DISTRO="ubuntu"
+    info "Ubuntu detected. Installing base dependencies..."
+    sudo apt-get update
+    sudo apt-get install -y git make curl jq    
 else
     error "Unsupported distribution. Please install git, make, curl, and jq manually."
 fi
 
 # 2. Prepare Temporary Folder
 TEMP_DIR=$(mktemp -d -t ml4w-installer-XXXXXX)
-info "Cloning ML4W Dotfiles Installer $TAG into $TEMP_DIR..."
+if [[ "$USE_MAIN" == true ]]; then
+    BRANCH="main"
+    warn "Installing the latest code from the main branch (may be unstable)."
+else
+    BRANCH="$TAG"
+fi
+info "Cloning ML4W Dotfiles Installer $BRANCH into $TEMP_DIR..."
 
 # 3. Clone and Install the App
-git clone --depth=1 --branch $TAG -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
+git clone --depth=1 --branch "$BRANCH" -c advice.detachedHead=false https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git "$TEMP_DIR"
 cd "$TEMP_DIR"
 
 info "Installing ML4W Dotfiles Installer to ~/.local/bin..."
