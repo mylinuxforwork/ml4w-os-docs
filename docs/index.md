@@ -18,7 +18,7 @@ hero:
       link: /getting-started/install
     - theme: alt
       text: Live ISO 
-      link: https://ml4w.com/iso/ml4w-os/ml4w-os-2.16-x86_64.iso
+      link: https://ml4w.com/iso/ml4w-os/ml4w-os-2.16.1-x86_64.iso
     - theme: alt
       text: GitHub ↗
       link: https://github.com/mylinuxforwork/dotfiles
@@ -74,7 +74,7 @@ The installation is based on the new script-based <a href="https://ml4w.com/dotf
 
 Test ML4W OS from a bootable USB stick or directly in a KVM/QEMU virtual machine.<br>Run `sudo install-ml4w-os` in a terminal to install ML4W OS with Arch Linux (beta).
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.16-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.16.1-x86_64.iso" class="VPMyButton" target="_blank">Download the Live ISO </a>
 
 
 </div>
